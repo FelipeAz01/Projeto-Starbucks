@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Starbucks</title>
+
+
+</head>
+
+<body>
+    <div class="circulo"></div>
+<div class="pai-img">
+    <img src="./img/logo.png" alt="logo Starbucks" class="logo">
+</div>
+    <main class="conteudo">
+        <section class="caixa-texto">
+            <h2>Não é apenas café, é um <span>Starbucks!!</span></h2>
+            <p>O Starbucks, conhecido por sua variedade de cafés e ambiente acolhedor, oferece uma experiência única aos
+                amantes da bebida.</p>
+
+            <button>Deixe seu LIKE!</button>
+        </section>
+
+        <footer class="caixa-imagem">
+            <img src="./img/img1.png" alt="copao" class="copao">
+        </footer>
+    </main>
+
+    <div class="menu">
+        <img src="./img/img-pequena1.png" alt="pequeno verde" class="copo-pequeno verde">
+        <img src="./img/img-pequena2.png" alt="pequeno rosa" class="copo-pequeno rosa">
+        <img src="./img/img-pequena3.png" alt="pequeno pink" class="copo-pequeno pink">
+    </div>
+
+
+</body>
+<script>
+    let circulo = document.querySelector(".circulo")
+
+    let imgCopao = document.querySelector(".copao")
+    let verde = document.querySelector(".verde")
+    let rosa = document.querySelector(".rosa")
+    let pink = document.querySelector(".pink")
+
+    verde.addEventListener("click", () => {
+        imgCopao.src = "./img/img1.png"
+        circulo.style.background = "#017143"
+    })
+
+    pink.addEventListener("click", () => {
+        imgCopao.src = "./img/img3.png"
+        circulo.style.background = "#FF1493"
+    })
+
+    rosa.addEventListener("click", () => {
+        imgCopao.src = "./img/img2.png"
+        circulo.style.background = "#eb7495"
+    })
+
+
+</script>
+
+</html>

@@ -57,9 +57,10 @@ button {
     /* arredondamento borda*/
     cursor: pointer;
 
-    box-shadow:rgba(1, 113, 67, 1);
-   
+    box-shadow: rgba(1, 113, 67, 1);
+
 }
+
 button:hover {
     opacity: .8;
 
@@ -91,7 +92,7 @@ p {
 }
 
 .logo {
-    width: 120px;
+    width: 80px;
     /*tamanho em largura*/
 
 }
@@ -123,3 +124,62 @@ p {
 
 }
 
+@media screen and (max-width: 500px) {
+
+    .circulo {
+        clip-path: circle(600px at right 400px);
+        z-index: -1;
+    }
+
+    button {
+        background: #fff;
+        color: #000;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    span {
+        font-size: 35px;
+        color: #3a3a3a;
+    }
+
+    .caixa-texto {
+        color: #fff;
+        width: 400px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .caixa-imagem {
+        width: 100px;
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        padding-bottom: 770px;
+        margin-left: 190px;
+    }
+
+    .copao {
+        width: 60px;
+        margin-top: 70px;
+    }
+
+    .copo-pequeno {
+        width: 50px;
+    }
+
+    body {
+        padding-top: 20px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}

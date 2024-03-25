@@ -1,5 +1,6 @@
-<h1>PROJETO STARBUCKS</h1>
-<img src="https://github.com/FelipeAz01/Projeto-Starbucks/blob/main/img/pc.png?raw=true" /> <br><br>
+<h1 align="center">PROJETO STARBUCKS</h1>
+<img src="https://github.com/FelipeAz01/Projeto-Starbucks/assets/147412994/a3fd1c6e-d59b-4ef1-8552-ee12ffaf2a48" /> <br><br>
+
 
 <h3> Este é o meu primeiro projeto, desenvolvido com as aulas do DevCLub.<br><br>
 
